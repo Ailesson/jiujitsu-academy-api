@@ -95,7 +95,6 @@ Crie um arquivo `.env` na raiz, a partir do `.env.example`:
 ```dotenv
 DJANGO_SECRET_KEY=substitua_por_uma_chave_aleatoria
 DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
 ```
 
 Para gerar uma chave:
