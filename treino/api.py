@@ -148,11 +148,6 @@ def aula_realizada(
 
     return f"{qtd} aulas registradas para {aluno.nome}."
 
-@treino_router.patch(
-    "/alunos/{aluno_id}",
-    response=AlunosSchema
-)
-
 
 @treino_router.patch(
     "/alunos/{aluno_id}",
